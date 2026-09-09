@@ -1,8 +1,8 @@
 name: Update MQT Core
 on:
-  schedule:
-    # run once a month on the first day of the month at 00:00 UTC
-    - cron: "0 0 1 * *"
+  # schedule:
+  #   # run once a month on the first day of the month at 00:00 UTC
+  #   - cron: "0 0 1 * *"
   workflow_dispatch:
     inputs:
       update-to-head:
